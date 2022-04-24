@@ -1,0 +1,77 @@
+.divarsaati {
+    background: #fff url(./clock.jpeg) no-repeat center;
+    background-size: 88%;
+    height: 20em;
+    padding-bottom: 32%;
+    position: relative;
+    width: 20em;
+    margin: auto;
+  }
+  
+  .divarsaati.simple:after {
+    background: #000;
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 5%;
+    height: 5%;
+    z-index: 10;
+  }
+
+  .deqiqe-container, .saat-container, .saniye-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .saat {
+    background: #000;
+    height: 15%;
+    left: 48.75%;
+    position: absolute;
+    top: 35%;
+    transform-origin: 50% 100%;
+    width: 2.5%;
+  }
+
+  .deqiqe {
+    background: #000;
+    height: 20%;
+    left: 49%;
+    position: absolute;
+    top: 30%;
+    transform-origin: 50% 100%;
+    width: 2%;
+  }
+
+  .saniye {
+    background: #000;
+    height: 22%;
+    left: 49.5%;
+    position: absolute;
+    top: 29%;
+    transform-origin: 50% 80%;
+    width: 1%;
+    z-index: 8;
+  }
+
+  @keyframes rotate {
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
+
+  .saat-container {
+    animation: rotate 43200s infinite steps(60);
+  }
+  .deqiqe-container {
+    animation: rotate 3600s infinite linear;
+  }
+  .saniye-container {
+    animation: rotate 60s infinite steps(60);
+  }
