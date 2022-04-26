@@ -1,0 +1,40 @@
+h1{
+    color: white;
+}
+div{
+    background-color: #1abc9c;
+    text-align: center;
+    
+}
+img{
+    height: 100px;
+    width: auto;
+}
+p{
+    color: white;
+}
+.Nav{
+    color: white;
+}
+
+.W a{
+    text-decoration: none;
+    color: white;  
+    background-color: black;
+     
+      
+}
+
+.Head a{
+    display: flex;
+    justify-content: flex-start;
+}
+.Nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type:none; 
+}
+
+
+    
+
