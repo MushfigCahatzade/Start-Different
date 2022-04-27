@@ -1,0 +1,49 @@
+h1{
+    font-size: 20px;
+}
+header{
+    background-color: black;
+   
+}
+main{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+p{
+    color: white !important;
+}
+square{
+    color: wheat !important;
+}
+.nav-link{
+    color: white !important;
+}
+.navbar-brand{
+    color: white !important;
+}
+.A{
+    background-color: white;
+}
+h2{
+    color: black;
+}
+.C{
+
+
+  width:300px;
+  height:100px;  
+  display: table; 
+  background-color: gainsboro;  
+    
+}
+.B{  
+    
+    text-align:center; 
+    vertical-align: middle;
+    display: table-cell;       
+}
+.BNA{
+    color: black;
+}
