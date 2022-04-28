@@ -1,0 +1,129 @@
+nav {
+    padding: 30px !important;
+}
+
+li{
+    margin-right: 15px;
+}
+
+p {
+    color: rgb(138,138,138);
+}
+
+.download a:hover {
+    color: #fff !important;
+}
+
+.download {
+    width: 150px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 2px solid rgb(138,138,138);
+    font-size: 13px;
+    transition: .3s ease all;
+    border-radius: 5px;
+}
+
+.download:hover {
+    background-color: rgb(33,191,115);
+    transition: 1s ease all;
+    border: none;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.row .col-5 {
+    margin-top: 50px;
+    
+}
+
+#intro {
+    background-color: rgb(240,245,249);
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.title  h3{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.left .buttons {
+    margin-top: 50px;
+}
+
+.left .buttons button {
+    width: 120px;
+    height: 40px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.left .buttons button:first-child {
+    border: 2px solid rgb(52,152,219);
+    transition: .3s ease all;
+}
+
+.left .buttons button:first-child:hover {
+    color: #fff;
+    background-color: rgb(52,152,219);
+    transition: .3s ease all;
+}
+
+.left .buttons button:nth-child(2) {
+    border: none;
+    background-color: rgb(33,191,115);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.left .desc-alt p {
+    margin-top: 15px;
+    font-size: 12px;
+    width: 200px;
+}
+
+.right img {
+    width: 500px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.title-alt p {
+    color: rgb(33,191,138);
+}
+
+.bottom-title, .bottom-desc {
+    width: 50%;
+}
+
+.bottom-cards {
+    margin-top: 50px;
+}
+
+.bottom-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+}
+
+.bottom-card img {
+    width: 100px;
+}
