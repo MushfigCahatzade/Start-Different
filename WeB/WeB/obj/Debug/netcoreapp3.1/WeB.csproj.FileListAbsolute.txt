@@ -1,0 +1,8 @@
+C:\Users\Administrator\Desktop\Visual Code\WeB\WeB\obj\Debug\netcoreapp3.1\WeB.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Visual Code\WeB\WeB\obj\Debug\netcoreapp3.1\WeB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Visual Code\WeB\WeB\obj\Debug\netcoreapp3.1\WeB.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Visual Code\WeB\WeB\obj\Debug\netcoreapp3.1\WeB.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Visual Code\WeB\WeB\obj\Debug\netcoreapp3.1\WeB.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Visual Code\WeB\WeB\obj\Debug\netcoreapp3.1\WeB.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\Desktop\Visual Code\WeB\WeB\obj\Debug\netcoreapp3.1\WeB.RazorAssemblyInfo.cache
+C:\Users\Administrator\Desktop\Visual Code\WeB\WeB\obj\Debug\netcoreapp3.1\WeB.RazorAssemblyInfo.cs
