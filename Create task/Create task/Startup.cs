@@ -27,7 +27,7 @@ namespace Create_task
             services.AddControllersWithViews();
             services.AddDbContext<AppDbContext>(option =>
             {
-                option.UseSqlServer(_config.GetConnectionString("Default"));
+                option.UseSqlServer(_config.GetConnectionString("DefaultConnection"));
             });
         }
 

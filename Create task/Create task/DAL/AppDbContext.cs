@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Create_task.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Create_task.DAL
 {
@@ -8,5 +9,6 @@ namespace Create_task.DAL
         {
 
         }
+        public DbSet<Slider> Sliders { get; set; }
     }
 }
