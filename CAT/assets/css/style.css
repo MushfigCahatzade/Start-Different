@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-item-o i{
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    margin-top: 9px;
+
+}
+.nav-item-or{
+    padding-left: 47rem;
+    font-size: 1.5rem;
+}
+.nav-item a{
+    color: white !important;
+}
+.nav-item-d{
+    border: 2rem solid white; 
+    background-color: black;
+    padding-left: 40rem;
+}
